@@ -29,4 +29,4 @@ jobs:
         username: ${{ secrets.GIT_CPANEL_FRONTEND_USER }}
         password: ${{ secrets.GIT_CPANEL_FRONTEND_PWD }}
         protocol: ${{ secrets.GIT_CPANEL_FRONTEND_PROTOCOL }}
-        local-dir: ./dist
+        local-dir: ./dist/source/
